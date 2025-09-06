@@ -1,1 +1,1 @@
-'Fix ECharts build issues for Vite compatibility'  
+'Fix Vite config to exclude ECharts and zrender from optimization'  
