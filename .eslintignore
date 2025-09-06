@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Generated files
+*.min.js
+*.min.css
+
+# Vendor files
+vendor/
+
+# Assets
+src/assets/
+
+# Config files
+vite.config.js
+.eslintrc.js
+.prettierrc

@@ -1,0 +1,60 @@
+// Gentelella Admin Dashboard - SCSS Variables
+
+// Color Palette
+$primary-color: #73879C;
+$secondary-color: #2A3F54;
+$accent-color: #1ABB9C;
+$success-color: #26B99A;
+$warning-color: #FFC107;
+$danger-color: #DC3545;
+$dark-color: #2A3F54;
+$light-color: #F7F7F7;
+
+// Layout
+$sidebar-width: 250px;
+$navbar-height: 56px;
+$border-radius: 6px;
+
+// Typography
+$font-family: 'Roboto', sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+
+// Spacing
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3
+);
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Shadows
+$box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+$box-shadow-hover: 0 4px 8px rgba(0,0,0,0.15);
+
+// Transitions
+$transition-base: all 0.3s ease;
+$transition-fast: all 0.15s ease;
+$transition-slow: all 0.5s ease;
+
+// Z-index
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
