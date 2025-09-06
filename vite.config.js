@@ -14,15 +14,13 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
-      external: ['echarts'],
       output: {
         manualChunks: undefined
       }
     }
   },
   optimizeDeps: {
-    include: ['echarts'],
-    exclude: ['zrender']
+    exclude: ['echarts', 'zrender']
   },
   server: {
     port: 3000,
