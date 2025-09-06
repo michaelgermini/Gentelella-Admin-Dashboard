@@ -12,7 +12,17 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      external: ['echarts'],
+      output: {
+        manualChunks: undefined
+      }
+    }
+  },
+  optimizeDeps: {
+    include: ['echarts'],
+    exclude: ['zrender']
   },
   server: {
     port: 3000,

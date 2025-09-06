@@ -1,6 +1,8 @@
 // Charts initialization for Gentelella Admin Dashboard
 import Chart from 'chart.js/auto';
-import * as echarts from 'echarts';
+// Temporarily disabled ECharts due to build issues
+// TODO: Re-enable ECharts with proper Vite configuration
+// import * as echarts from 'echarts/core';
 
 export function initializeCharts() {
     // Chart.js - Sales Overview Chart
@@ -112,6 +114,9 @@ export function initializeCharts() {
 }
 
 function initializeECharts() {
+    // ECharts temporarily disabled due to build issues
+    console.log('ECharts disabled for build compatibility');
+    /*
     // ECharts example - Bar chart
     const barChartDom = document.getElementById('echarts-bar');
     if (barChartDom) {
@@ -163,6 +168,7 @@ function initializeECharts() {
         };
         areaChart.setOption(option);
     }
+    */
 }
 
 // Chart notification system
